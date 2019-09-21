@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+$font-family-sans-serif: 'Permanent Marker', cursive;
+
+.header {
+    .custom {               
+        $font-family-base: $font-family-sans-serif;
+        font-family: $font-family-base;
+    }
+}
+
+
+
+/* Import Bootstrap and its default variables (Need this as most of the variables are not covered for jumbotron in the 
+   _jumbotron.scss file) */
+
+@import '~bootstrap/scss/bootstrap.scss';
+

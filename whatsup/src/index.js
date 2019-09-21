@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// // Importing the bootstrap css
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 // Importing the custom scss
 import './custom.scss';
-
-// Importing the bootstrap css
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css';
 import App from './App';
