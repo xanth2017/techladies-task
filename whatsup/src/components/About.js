@@ -11,7 +11,7 @@ function About() {
         <div className={s.About}>
             <Jumbotron fluid className={s.customJumbo}>
                 <Container>
-                    <Image src="/me.jpg" rounded  className={s.customMe}/>   
+                    {/* <Image src="/me.jpg" rounded  className={s.customMe}/>    */}
                     <h1 className={s.swivelChair} >Su Wei aka @Rebootlifer</h1>
                     <p>
                     This is a modified jumbotron that occupies the entire horizontal space of
