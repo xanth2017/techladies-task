@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2:900');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
 .Content {
 
             h1 {
-                font-family: 'Exo 2', sans-serif;
-                font-size: 10.5vw;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+                font-family: 'Permanent Marker', cursive;
+                font-size: 12.5vw;
                 color: white;
                 padding: 5rem 0;
                 text-shadow: 0px 4px 48px rgba(255,255,255,0.2);
@@ -17,7 +22,7 @@
                 justify-content: center;
                 height: 100vh;
                 background: {
-                    image: linear-gradient(to bottom,  #00c9ff 0%, #92fe9d 100%), url(https://images.unsplash.com/photo-1502726299822-6f583f972e02);
+                    image: linear-gradient(to bottom,  #00c9ff 0%, #92fe9d 100%), url(https://images.pexels.com/photos/2170473/pexels-photo-2170473.jpeg);
                     blend-mode: multiply;
                     size: cover;
                 }

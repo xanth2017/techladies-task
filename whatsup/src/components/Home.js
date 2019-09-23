@@ -1,8 +1,8 @@
 import React from "react";
-import s from "./Content.module.scss";
+import s from "./Home.module.scss";
 
 
-function Content() {
+function Home() {
     return (
       <div className={s.Content}>
             <div className={s['banner-container']}>
@@ -99,5 +99,5 @@ function Content() {
     );
   }
   
-  export default Content;
+  export default Home;
   

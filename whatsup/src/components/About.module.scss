@@ -1,0 +1,72 @@
+$bodyColorDefault : #007bae;
+$fontColorDefault : white;
+
+body {
+
+    background-color:$bodyColorDefault;
+}
+
+.About {
+
+    .customJumbo {
+        height: 60vh;
+        background-color:$bodyColorDefault;
+        
+        h1 {
+            font-size: 3em;
+            color: $fontColorDefault;
+        }
+
+        p {
+            color: $fontColorDefault;  
+        }
+
+        .customMe {
+            margin-top: 3em;
+            width: 20vh;
+            height:20vh;
+        }
+
+    }
+
+
+    @keyframes swivelChair {
+        from {
+          transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+          animation-timing-function: ease-in;
+          opacity: 1;
+        }
+      
+        40% {
+          transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+          animation-timing-function: ease-in;
+        }
+      
+        60% {
+          transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+          opacity: 1;
+        }
+      
+        80% {
+          transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        }
+      
+        to {
+          transform: perspective(400px);
+        }
+      }
+      
+      .swivelChair {
+        -webkit-backface-visibility: visible !important;
+        backface-visibility: visible !important;
+        animation-name: swivelChair;
+        animation-duration: 2s;
+      }
+      
+
+
+//Timeline
+
+
+
+}

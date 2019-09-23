@@ -2,10 +2,36 @@
 
 $font-family-sans-serif: 'Permanent Marker', cursive;
 
+$defaultNavColor: white;
+
+.customToggle {
+    &:focus {
+        outline: none;
+    }
+
+    span {
+        background-image: url('/icon.svg') !important;
+    }
+}
+
 .header {
+
+    a {
+        color: $defaultNavColor;
+    }
+
+    .customToggle {
+        color: $defaultNavColor;
+    }
     .custom {               
         $font-family-base: $font-family-sans-serif;
         font-family: $font-family-base;
+        color: $defaultNavColor;
+        // font-size: 3em;
+    }
+
+    .na {
+        color:$defaultNavColor;
     }
 }
 
