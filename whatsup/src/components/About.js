@@ -14,12 +14,12 @@ function About() {
                     {/* <Image src="/me.jpg" rounded  className={s.customMe}/>    */}
                     <h1 className={s.swivelChair} >Su Wei aka @Rebootlifer</h1>
                     <p>
-                    This is a modified jumbotron that occupies the entire horizontal space of
-                    its parent.
+                    Hi, I'm su wei. Welcome to @RebootLifer and into my inner world.
                     </p>
                  </Container>
-
             </Jumbotron>
+        
+        
         </div>
     );
 }
