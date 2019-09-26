@@ -64,8 +64,10 @@ function About() {
                         <p>
                         Sustainability, all things about technology, my family
                         </p>
+                        <h1>Dreams</h1>
                         <p>
-                        
+                        Using technology to solve sustainability issues and improving the quality of life 
+                        for elderly in the society.
                         </p>
                     </Col>
                 </Row>
