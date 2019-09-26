@@ -23,16 +23,51 @@ function About() {
             </Jumbotron>
             <Container className={s.customIntro} >
                 <Row >
-                <Col md={{ span: 8, offset: 2 }} >
-                <h1>Introduction</h1>
-                <p> Why? @RebootLifer? RebootLifer was the spur of the moment brainchild of mine while i was trying 
-                    to improvise on how to deliver engaging course materials to my students. At the same time,
-                    having ample time to help them learn the materials.
-                </p>
-                <p>
-                    
-                </p>
-                </Col>
+                    <Col md={{ span: 8, offset: 2 }} >
+                        <h1>Introduction</h1>
+                        <p> Why? @RebootLifer? RebootLifer was the spur of the moment brainchild of mine while i was trying 
+                            to improvise on how to deliver engaging course materials to my students. At the same time,
+                            having ample time to help them learn the materials.
+                        </p>
+                        <p>
+                        The name "RebootLifer" comes from reboot and life. Long gone were the days of iron rice bowl and one
+                        job for life situation. With technological adavancement and disruption, during my career span i found myself 
+                        having to reboot my career and life in numerous occasion to flow and thrive.                
+                        </p>
+                    </Col>
+                </Row>
+                <Row >
+                    <Col md={{ span: 8, offset: 2 }} >
+                        <h1>Where I'm From</h1>
+                        <p>
+                        I'm from Singapore aka tiny island nation with world class ranking facilities. :)
+                        </p>
+                    </Col>
+                </Row>
+                <Row >
+                    <Col md={{ span: 8, offset: 2 }} >
+                        <h1>More about me</h1>
+                        <p>
+                        Team player at heart, and a leader when the need arises.
+                        </p>
+                        <p>
+                        I am driven and passionate about new technology insights and 
+                        its applications. Human sponge for absorbing up to date technological
+                        advancement with a keen interest to develop practical applications with
+                        the knowledge.
+                        </p>
+                    </Col>
+                </Row>
+                <Row >
+                    <Col md={{ span: 8, offset: 2 }} >
+                        <h1>What are my passions</h1>
+                        <p>
+                        Sustainability, all things about technology, my family
+                        </p>
+                        <p>
+                        
+                        </p>
+                    </Col>
                 </Row>
             </Container>
         </div>

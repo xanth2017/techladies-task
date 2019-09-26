@@ -12,7 +12,7 @@ body {
         height: 40vh;
         background-image: url('https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');
         background-size: cover;
-        padding-top: 6em;     
+        padding-top: 4em;     
         
         h1 {
             font-size: 3em;
@@ -24,18 +24,6 @@ body {
             letter-spacing: 1px;
             font-family: 'Open Sans';
             color: $fontColorDefault;  
-        }
-
-  // Small devices (landscape phones, 576px and up)
-        @media (max-width: 576px) { 
-          padding-top: 5em;
-          h1 {
-            font-size: 2.8em;
-          }
-
-          p {
-            display: none;
-          }
         }
 
     }
@@ -82,12 +70,54 @@ body {
         font-weight: 600;
       }
 
-<<<<<<< HEAD
+    }
 
-=======
-   }
->>>>>>> b82543de92954596e629d896a4c8b5705378856c
+//Media queries
+// Extra small devices (portrait phones, less than 576px)
+    @media (max-width: 575.98px) { 
+      .customJumbo {
+        height: 30vh;
+        padding-top: 4em;
+        
+        h1 {
+          font-size: 2.8em;
+        }
 
+        p {
+          display: none;
+        }
+      }
+
+      .customIntro {
+        h {
+          font-size: 2.8em;
+        }
+      }
+
+    }
+
+// Small devices (landscape phones, less than 823px)
+    @media (max-width: 823px) { 
+      .customJumbo {
+        height: 30vh;
+        padding-top: 4em;
+
+        h1 {
+          font-size: 2em;
+        }
+
+        p {
+          display: none;
+        }
+      }
+
+      .customIntro {
+        h {
+          font-size: 2.8em;
+        }
+      }
+
+    }
 
 
 }
