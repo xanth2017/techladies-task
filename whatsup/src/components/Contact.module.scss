@@ -55,9 +55,9 @@ body {
         animation-duration: 2s;
       }
 
-// Custom Card CSS     
+// Custom Weather Card CSS     
    .customCardWeather {
-    
+   
       p {
         font-family: 'Open Sans';
         font-weight: 600;
@@ -74,7 +74,26 @@ body {
         width: 600px;
       }
 
+
     }
+
+  //Custom Connect Card
+  .customCardConnect {
+      width: 18em;
+      height: 18em;
+      margin: 1em;
+      .customCardButton{
+        font-family: 'Open Sans';
+        font-weight: 600;
+      }
+
+      .customCardImg {
+        height: 10em;
+      }
+
+  }
+
+
 
 // Extra small devices (portrait phones, less than 576px)
     @media (max-width: 575.98px) { 
@@ -83,7 +102,8 @@ body {
         padding-top: 4em;
         
         h1 {
-          font-size: 2.8em;
+          font-size: 1.8em;
+          word-wrap: break-word;
         }
 
         p {
@@ -95,6 +115,27 @@ body {
 
       .customCardWeather{
         display: none;
+      }
+
+      .customCardConnect {
+        margin-left: auto;
+        margin-right: auto;
+        width: 18em;
+        height: 18em;
+
+        .customCardImg {
+          height: 10em;
+        }
+
+        .customCardTitle {
+          font-size: 1.2em;
+        }
+        .customCardButton{
+          height: 3em;
+          font-size: 1em;
+          font-family: 'Open Sans';
+          font-weight: 600;
+        }
       }
 
     }
@@ -132,6 +173,14 @@ body {
             height: 200px;
             width: 300px;
           }
+      }
+
+      .customCardConnect {
+        margin: 1em;
+
+        .customCardImg {
+          height: 10em;
+        }
       }
     }
 }
