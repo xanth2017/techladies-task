@@ -62,7 +62,7 @@ function About() {
                     <Col md={{ span: 8, offset: 2 }} >
                         <h1>What are my passions</h1>
                         <p>
-                        Sustainability, all things about technology, my family
+                        Sustainability, all things about technology, van life, my family
                         </p>
                         <h1>Dreams</h1>
                         <p>

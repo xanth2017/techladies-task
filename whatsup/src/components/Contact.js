@@ -5,6 +5,8 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Iframe from 'react-iframe';
 
 
 function Contact() {
@@ -15,19 +17,24 @@ function Contact() {
                     <h1 className={s.swivelChair} >How to get in touch?</h1>
                  </Container>
             </Jumbotron>
-            <Container className={s.customIntro} >
+            <Container >
                 <Row >
                     <Col md={{ span: 8, offset: 2 }} >
-                        <h1>Introduction</h1>
-                        <p> Why? @RebootLifer? RebootLifer was the spur of the moment brainchild of mine while i was trying 
-                            to improvise on how to deliver engaging course materials to my students. At the same time,
-                            having ample time to help them learn the materials.
-                        </p>
-                        <p>
-                        The name "RebootLifer" comes from reboot and life. Long gone were the days of iron rice bowl and one
-                        job for life situation. With technological adavancement and disruption, during my career span i found myself 
-                        having to reboot my career and life in numerous occasion to flow and thrive.                
-                        </p>
+                    <Card className={s.customCardWeather} >
+                        <Card.Header className={s.cardHeader}>
+                            Let's check out the weather in SG first :)
+                        </Card.Header>
+                        <Card.Body >
+                            <Iframe 
+                                url="https://data.gov.sg/dataset/weather-forecast/resource/571ef5fb-ed31-48b2-85c9-61677de42ca9/view/4c127d9a-cba6-445a-8fc1-978b565f9bf7"                               
+                                className={s.customFrame}
+                            />
+                        </Card.Body>
+                    </Card>
+                    </Col>
+                </Row>
+                <Row >
+                    <Col md={{ span: 8, offset: 2 }} >
                     </Col>
                 </Row>
             </Container>
